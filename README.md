@@ -1,10 +1,11 @@
 # jupyterlab conda 初始化记录（for qw2 v 3b inference）
 
-Created by: Li Wang
-Created time: 2025年11月21日 14:15
-Category: 调研
-Last edited by: Li Wang
-Last updated time: 2025年11月21日 14:32
+[快速初始化](./init)
+
+一句话命令
+```
+
+```
 
 - 创建notebook Storage调到100G（否则conda安装容量会不够）
 - 进入notebook后创建terminal

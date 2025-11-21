@@ -1,0 +1,11 @@
+#!/bin/bash
+
+conda create -n hf_llm_env python=3.12 -y
+conda init
+source ~/.bashrc
+
+conda activate hf_llm_env
+conda install -c conda-forge sagemaker -y
+pip install ipykernel
+pip install git+https://github.com/huggingface/transformers
+python -m ipykernel install --user --name hf_llm_env --display-name "HuggingFace LLM (Python 3.12)"
