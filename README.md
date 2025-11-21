@@ -3,8 +3,8 @@
 [快速初始化](./init)
 
 一句话命令
-```
-
+```bash
+curl -sSL https://raw.githubusercontent.com/lexmount/sagemaker-qwen2-5-vl3b-inference-demo/refs/heads/main/init | bash
 ```
 
 - 创建notebook Storage调到100G（否则conda安装容量会不够）
