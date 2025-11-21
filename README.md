@@ -1,5 +1,8 @@
 # jupyterlab conda 初始化记录（for qw2 v 3b inference）
 
+- 创建notebook Storage调到100G（否则conda安装容量会不够）
+- 进入notebook后创建terminal
+
 [快速初始化](./init)
 
 一句话命令
@@ -7,8 +10,6 @@
 curl -sSL https://raw.githubusercontent.com/lexmount/sagemaker-qwen2-5-vl3b-inference-demo/refs/heads/main/init | bash
 ```
 
-- 创建notebook Storage调到100G（否则conda安装容量会不够）
-- 进入notebook后创建terminal
 - 清理 conda 环境
 
 ```python
